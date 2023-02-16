@@ -8,7 +8,7 @@
 
 body{
     background: #E8E8E8;
-    height: 97vh;
+    height: 110vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -83,4 +83,23 @@ body{
 #FotoSala{
     display: flex;
     justify-content: center;
+}
+
+#Rodape{
+    display: flex;
+    justify-content: center;
+}
+
+#CorpoRodape{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18x;
+    font-weight: bold;
+    color: #535353;
+    background: #d3d3d3;
+    width: 200vh;
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0 5px 0 ;
 }
