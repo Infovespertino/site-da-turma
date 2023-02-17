@@ -65,24 +65,13 @@ body{
     flex-direction: column;
 }
 
-#Conteudo{
+#TextCorpo{
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 22px;
     display: flex;
     justify-content: center;
     text-align: center;
-}
-
-#Sala{
-    max-height: 320px;
-    border: solid 2px black;
-    margin: 50px 0 0 0;
-}
-
-#FotoSala{
-    display: flex;
-    justify-content: center;
 }
 
 #Rodape{
