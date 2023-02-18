@@ -4,16 +4,17 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Inter', sans-serif ;
 }
 
 body{
     background: #E8E8E8;
-    height: 110vh;
+    height: 300vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#Cabecalho{
+#header{
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -23,13 +24,13 @@ body{
     padding: 0 0 25px 0;
 }
 
-#Image{
+#image{
     width: 69px;
     height: 69px;
     margin: 0 0 0 50px;
 }
 
-#Bar{
+#bar{
     display: flex;
     flex-direction: row;
     font-size: 20px;
@@ -38,7 +39,7 @@ body{
     margin: 0 35px 0 0;
 }
 
-#Bar a{
+#bar a{
     color: #000957;
     display: flex;
     justify-content: center;
@@ -49,7 +50,7 @@ body{
     height: 30px;
 }
 
-#Bar a:hover{
+#bar a:hover{
     width: 90px;
     height: 30px;
     background: #9B9B9B;
@@ -60,12 +61,12 @@ body{
 }
 
 
-#Rodape{
+#footer{
     display: flex;
     justify-content: center;
 }
 
-#CorpoRodape{
+#body-footer{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -73,8 +74,43 @@ body{
     font-weight: bold;
     color: #535353;
     background: #d3d3d3;
-    width: 200vh;
+    width: 100%;
     position: fixed;
     bottom: 0;
     padding: 5px 0 5px 0 ;
 }
+
+.img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.image{
+    display: grid;
+    column-gap: 100px;
+    row-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.title{
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 40px;
+    border-bottom: #000957 2px solid;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+    
