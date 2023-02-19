@@ -1,0 +1,423 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif ;
+}
+
+@media screen and (min-width: 320px) {
+    body{
+        background: #E8E8E8;
+        height: 400vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* header-mobile */
+    ul{
+        list-style: none;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        top: -100px;
+        background-color: #00095777;
+        border-radius: 15px;
+        
+    }
+
+    input[type="checkbox"]:checked ~ .nav-bar{
+        transform: translateY(150px);
+        opacity: 100%;
+    }
+
+    input[type="checkbox"]{
+        display: none;
+        
+    }
+
+    input[type="checkbox"] ~ .nav-bar{
+        opacity: 0%;
+    }
+
+    .nav-bar{
+        width: 90px;
+        height: 100px;
+        border-radius: 15px;
+        position: absolute;
+        transition: all .5s;
+        right: 5px;
+    }
+
+    #TURMA{
+        background-color: #858585;
+        border-radius: 15px;
+        font-size: 17px;
+    }
+
+    a{
+        display: block;
+        padding: 6px 5px;
+        color: #ffffff;
+    }
+
+    a:hover{
+        background-color: #858585;
+        border-radius: 15px;
+        font-size: 17px;
+        
+    }
+
+    label{
+        position: absolute;
+        z-index: 1;
+        cursor: pointer;
+        right: 5px;
+    }
+    
+    .bar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        padding-inline: 15px;
+        padding-bottom: 8px;
+        border-bottom: #000957 solid 2px;
+        width: 100%;
+    }
+
+    /* header-mobile */
+
+    
+    #footer{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #body-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+        color: #535353;
+        background: #d3d3d3;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding: 5px 0 5px 0 ;
+    }
+
+    .title{
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 40px;
+        border-bottom: #000957 2px solid;
+    }
+
+    .title-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: 70px;
+        
+        
+    }
+
+    .image div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 80px;
+        
+        
+    }
+
+    .image img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+    }
+
+    .image p { 
+        margin-top: 15px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background: #E8E8E8;
+        height: 400vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #header{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 15px 0 0 0 ;
+        border-bottom: solid 4px #000957;
+        padding: 0 0 15px 0;
+    }
+
+    #image{
+        width: 69px;
+        height: 69px;
+        margin: 0 0 0 20px;
+    }
+    
+    #TURMA{
+        width: 90px;
+        height: 30px;
+        background: #9B9B9B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    #bar{
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Inter', sans-serif;
+        margin: 0 10px 0 0;
+    }
+
+    #bar a{
+        color: #000957;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+        margin: 0 5px;
+        width: 90px;
+        height: 30px;
+    }
+
+    #bar a:hover{
+        width: 90px;
+        height: 30px;
+        background: #9B9B9B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+
+    #footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    #body-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 18x;
+        font-weight: bold;
+        color: #535353;
+        background: #d3d3d3;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding: 5px 0 5px 0 ;
+    }
+
+    .title{
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 40px;
+        border-bottom: #000957 4px solid;
+    }
+
+    .title-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        row-gap: 50px;
+        margin-top: 70px;
+        
+    }
+
+    .image div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+    }
+
+    .image p { 
+        margin-top: 15px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    
+}
+
+@media screen and (min-width: 1000px) {
+
+    body{
+        background: #E8E8E8;
+        height: 400vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #header{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 15px 0 0 0 ;
+        border-bottom: solid 6px #000957;
+        padding: 0 0 25px 0;
+    }
+
+    #image{
+        width: 69px;
+        height: 69px;
+        margin: 0 0 0 50px;
+    }
+
+    #bar{
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Inter', sans-serif;
+        margin: 0 35px 0 0;
+    }
+
+    #bar a{
+        color: #000957;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+        margin: 0 30px;
+        width: 90px;
+        height: 30px;
+    }
+
+    #TURMA{
+        width: 90px;
+        height: 30px;
+        background: #9B9B9B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        font-size: 21px;
+    }
+
+    #bar a:hover{
+        width: 90px;
+        height: 30px;
+        background: #9B9B9B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        font-size: 21px;
+        
+    }
+
+
+    #footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    #body-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 18x;
+        font-weight: bold;
+        color: #535353;
+        background: #d3d3d3;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding: 5px 0 5px 0 ;
+    }
+
+    .title{
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 40px;
+        border-bottom: #000957 4px solid;
+    }
+
+    .title-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        row-gap: 50px;
+        margin-top: 70px;
+    }
+
+    .image div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+    }
+
+    .image p { 
+        margin-top: 15px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .container{
+        padding-bottom: 50px;
+    }
+
+}
+    

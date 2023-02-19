@@ -4,11 +4,12 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Inter', sans-serif ;
 }
 
 body{
     background: #E8E8E8;
-    height: 110vh;
+    height: 130vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -98,7 +99,7 @@ body{
     font-weight: bold;
     color: #535353;
     background: #d3d3d3;
-    width: 200vh;
+    width: 100%;
     position: fixed;
     bottom: 0;
     padding: 5px 0 5px 0 ;
