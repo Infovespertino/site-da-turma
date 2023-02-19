@@ -1,4 +1,6 @@
 const imagens = [
+    {src: "../../images/alunos/Breno.jpeg", aluno: "Breno"},
+    {src: "../../images/alunos/Anne.jpeg", aluno: "Clenianne"},
     {src: "../../images/giga.webp", aluno: "Nome Sobrenome"},
     {src: "../../images/giga.webp", aluno: "Nome Sobrenome"},
     {src: "../../images/giga.webp", aluno: "Nome Sobrenome"},
@@ -35,9 +37,7 @@ const imagens = [
     {src: "../../images/giga.webp", aluno: "Nome Sobrenome"},
     {src: "../../images/giga.webp", aluno: "Nome Sobrenome"},
     {src: "../../images/giga.webp", aluno: "Nome Sobrenome"},
-    {src: "../../images/giga.webp", aluno: "Nome Sobrenome"},
-    {src: "../../images/giga.webp", aluno: "Nome Sobrenome"},
-    {src: "../../images/giga.webp", aluno: "Nome Sobrenome1"},
+    {src: "../../images/alunos/Yuri.jpeg", aluno: "Yuri"},
 ];
 
 //header-mobile
