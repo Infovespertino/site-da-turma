@@ -36,6 +36,12 @@
         
     }
 
+    input[type="checkbox"]:checked ~ label{
+        top: -1.2px;
+        transform: rotateX(180deg);
+        
+    }
+
     input[type="checkbox"] ~ .nav-bar{
         opacity: 0%;
     }
@@ -229,7 +235,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 18x;
+        font-size: 18px;
         font-weight: bold;
         color: #535353;
         background: #d3d3d3;
@@ -363,7 +369,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 18x;
+        font-size: 18px;
         font-weight: bold;
         color: #535353;
         background: #d3d3d3;
