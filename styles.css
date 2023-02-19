@@ -34,6 +34,12 @@
         opacity: 0%;
     }
 
+    input[type="checkbox"]:checked ~ label{
+        top: -1.2px;
+        transform: rotateX(180deg);
+        
+    }
+
     .nav-bar{
         width: 90px;
         height: 100px;
