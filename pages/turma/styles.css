@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +8,12 @@
 }
 
 @media screen and (min-width: 320px) {
+    body{
+        background: #E8E8E8;
+        height: 400vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     /* header-mobile */
     ul{
         list-style: none;
@@ -30,14 +36,14 @@
         
     }
 
-    input[type="checkbox"] ~ .nav-bar{
-        opacity: 0%;
-    }
-
     input[type="checkbox"]:checked ~ label{
         top: -1.2px;
         transform: rotateX(180deg);
         
+    }
+
+    input[type="checkbox"] ~ .nav-bar{
+        opacity: 0%;
     }
 
     .nav-bar{
@@ -48,8 +54,8 @@
         transition: all .5s;
         right: 5px;
     }
-    
-    #HOME{
+
+    #TURMA{
         background-color: #858585;
         border-radius: 15px;
         font-size: 17px;
@@ -84,91 +90,14 @@
         border-bottom: #000957 solid 2px;
         width: 100%;
     }
+
     /* header-mobile */
 
-    body{
-        background: #E8E8E8;
-        height: 130vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    #header{
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 15px 0 0 0 ;
-        border-bottom: solid 6px #000957;
-        padding: 0 0 25px 0;
-    }
-
-    #Image{
-        width: 69px;
-        height: 69px;
-        margin: 0 0 0 50px;
-    }
-
-    #Bar{
-        display: flex;
-        flex-direction: row;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: 'Inter', sans-serif;
-        margin: 0 35px 0 0;
-    }
-
-    #Bar a{
-        color: #000957;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 2px;
-        margin: 0 30px;
-        width: 90px;
-        height: 30px;
-    }
-
-    #Bar a:hover{
-        width: 90px;
-        height: 30px;
-        background: #9B9B9B;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 20px;
-    }
-
-    #body{
-        margin: 60px 0 0 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #container{
-        font-family: 'Inter', sans-serif;
-        font-weight: bold;
-        font-size: 16px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-inline: 10px;
-    }
-
-    #class{
-        max-height: 200px;
-        border: solid 2px black;
-        margin: 50px 0 0 0;
-    }
-
-    #class-image{
-        display: flex;
-        justify-content: center;
-    }
-
+    
     #footer{
         display: flex;
         justify-content: center;
+
     }
 
     #body-footer{
@@ -184,13 +113,58 @@
         bottom: 0;
         padding: 5px 0 5px 0 ;
     }
+
+    .title{
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 40px;
+        border-bottom: #000957 2px solid;
+    }
+
+    .title-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: 70px;
+        
+        
+    }
+
+    .image div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 80px;
+        
+        
+    }
+
+    .image img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+    }
+
+    .image p { 
+        margin-top: 15px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
 }
 
-@media screen and (min-width:768px) {
-    
+@media screen and (min-width: 768px) {
     body{
         background: #E8E8E8;
-        height: 130vh;
+        height: 400vh;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -205,13 +179,13 @@
         padding: 0 0 15px 0;
     }
 
-    #Image{
+    #image{
         width: 69px;
         height: 69px;
         margin: 0 0 0 20px;
     }
-
-    #HOME{
+    
+    #TURMA{
         width: 90px;
         height: 30px;
         background: #9B9B9B;
@@ -221,7 +195,7 @@
         border-radius: 20px;
     }
 
-    #Bar{
+    #bar{
         display: flex;
         flex-direction: row;
         font-size: 18px;
@@ -230,7 +204,7 @@
         margin: 0 10px 0 0;
     }
 
-    #Bar a{
+    #bar a{
         color: #000957;
         display: flex;
         justify-content: center;
@@ -241,7 +215,7 @@
         height: 30px;
     }
 
-    #Bar a:hover{
+    #bar a:hover{
         width: 90px;
         height: 30px;
         background: #9B9B9B;
@@ -251,32 +225,6 @@
         border-radius: 20px;
     }
 
-    #body{
-        margin: 60px 0 0 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #container{
-        font-family: 'Inter', sans-serif;
-        font-weight: bold;
-        font-size: 22px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-inline: 20px;
-    }
-
-    #class{
-        max-height: 380px;
-        border: solid 2px black;
-        margin: 50px 0 0 0;
-    }
-
-    #class-image{
-        display: flex;
-        justify-content: center;
-    }
 
     #footer{
         display: flex;
@@ -296,28 +244,58 @@
         bottom: 0;
         padding: 5px 0 5px 0 ;
     }
-}
 
+    .title{
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 40px;
+        border-bottom: #000957 4px solid;
+    }
 
-#CorpoRodape{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: #535353;
-    background: #d3d3d3;
-    width: 200vh;
-    position: fixed;
-    bottom: 0;
-    padding: 5px 0 5px 0 ;
-}
+    .title-container{
+        display: flex;
+        justify-content: center;
+    }
 
-@media screen and (min-width:1000px) {
+    .image {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        row-gap: 50px;
+        margin-top: 70px;
+        
+    }
+
+    .image div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+    }
+
+    .image p { 
+        margin-top: 15px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
     
+}
+
+@media screen and (min-width: 1000px) {
+
     body{
         background: #E8E8E8;
-        height: 130vh;
+        height: 400vh;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -332,17 +310,13 @@
         padding: 0 0 25px 0;
     }
 
-    #Image{
+    #image{
         width: 69px;
         height: 69px;
         margin: 0 0 0 50px;
     }
 
-    #HOME{
-        font-size: 21px;
-    }
-
-    #Bar{
+    #bar{
         display: flex;
         flex-direction: row;
         font-size: 20px;
@@ -351,7 +325,7 @@
         margin: 0 35px 0 0;
     }
 
-    #Bar a{
+    #bar a{
         color: #000957;
         display: flex;
         justify-content: center;
@@ -362,7 +336,7 @@
         height: 30px;
     }
 
-    #Bar a:hover{
+    #TURMA{
         width: 90px;
         height: 30px;
         background: #9B9B9B;
@@ -373,31 +347,18 @@
         font-size: 21px;
     }
 
-    #body{
-        margin: 60px 0 0 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #container{
-        font-family: 'Inter', sans-serif;
-        font-weight: bold;
-        font-size: 22px;
+    #bar a:hover{
+        width: 90px;
+        height: 30px;
+        background: #9B9B9B;
         display: flex;
         justify-content: center;
-        text-align: center;
+        align-items: center;
+        border-radius: 20px;
+        font-size: 21px;
+        
     }
 
-    #class{
-        max-height: 320px;
-        border: solid 2px black;
-        margin: 50px 0 0 0;
-    }
-
-    #class-image{
-        display: flex;
-        justify-content: center;
-    }
 
     #footer{
         display: flex;
@@ -417,4 +378,52 @@
         bottom: 0;
         padding: 5px 0 5px 0 ;
     }
+
+    .title{
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 40px;
+        border-bottom: #000957 4px solid;
+    }
+
+    .title-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        row-gap: 50px;
+        margin-top: 70px;
+    }
+
+    .image div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+    }
+
+    .image p { 
+        margin-top: 15px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .container{
+        padding-bottom: 50px;
+    }
+
 }
+    
