@@ -217,54 +217,60 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
     #header{
         display: flex;
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
         margin: 15px 0 0 0 ;
-        border-bottom: solid 6px #000957;
-        padding: 0 0 25px 0;
+        border-bottom: solid 4px #000957;
+        padding: 0 0 15px 0;
     }
-    
+
     #Image{
         width: 69px;
         height: 69px;
-        margin: 0 0 0 50px;
+        margin: 0 0 0 20px;
     }
-    
+
+
     #Bar{
         display: flex;
         flex-direction: row;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
         font-family: 'Inter', sans-serif;
-        margin: 0 35px 0 0;
+        margin: 0 10px 0 0;
     }
-    
+
     #Bar a{
         color: #000957;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 2px;
-        margin: 0 30px;
+        margin: 0 5px;
         width: 90px;
         height: 30px;
     }
-    
+
     #Bar a:hover{
         width: 90px;
         height: 30px;
-        background: #9B9B9B;
+        background-color: #858585;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 20px;
+        font-size: 19px;
     }
     
-    
+    #EVENTOS{
+        background-color: #858585;
+        border-radius: 20px;
+        font-size: 19px;
+    }
+
     #body-text{
         font-family: 'Inter', sans-serif;
         font-weight: bold;
@@ -384,6 +390,13 @@
         justify-content: center;
         align-items: center;
         border-radius: 20px;
+        font-size: 21px;
+    }
+
+    #EVENTOS{
+        background: #9B9B9B;
+        border-radius: 20px;
+        font-size: 21px;
     }
     
     

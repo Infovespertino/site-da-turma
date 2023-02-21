@@ -188,11 +188,12 @@
     #TURMA{
         width: 90px;
         height: 30px;
-        background: #9B9B9B;
+        background-color: #858585;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 20px;
+        font-size: 19px;
     }
 
     #bar{
@@ -218,11 +219,12 @@
     #bar a:hover{
         width: 90px;
         height: 30px;
-        background: #9B9B9B;
+        background-color: #858585;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 20px;
+        font-size: 19px;
     }
 
 
@@ -339,7 +341,7 @@
     #TURMA{
         width: 90px;
         height: 30px;
-        background: #9B9B9B;
+        background-color: #858585;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -350,7 +352,7 @@
     #bar a:hover{
         width: 90px;
         height: 30px;
-        background: #9B9B9B;
+        background-color: #858585;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -214,11 +214,12 @@
     #HOME{
         width: 90px;
         height: 30px;
-        background: #9B9B9B;
+        background-color: #858585;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 20px;
+        font-size: 19px;
     }
 
     #Bar{
@@ -244,11 +245,12 @@
     #Bar a:hover{
         width: 90px;
         height: 30px;
-        background: #9B9B9B;
+        background-color: #858585;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 20px;
+        font-size: 19px;
     }
 
     #body{
@@ -299,20 +301,6 @@
 }
 
 
-#CorpoRodape{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: #535353;
-    background: #d3d3d3;
-    width: 200vh;
-    position: fixed;
-    bottom: 0;
-    padding: 5px 0 5px 0 ;
-}
-
 @media screen and (min-width:1000px) {
     
     body{
@@ -339,6 +327,7 @@
     }
 
     #HOME{
+        background: #9B9B9B;
         font-size: 21px;
     }
 
