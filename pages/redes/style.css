@@ -57,13 +57,13 @@
         font-size: 17px;
     }
 
-    a{
+    .options-header{
         display: block;
         padding: 6px 5px;
         color: #ffffff;
     }
 
-    a:hover{
+    .options-header :hover{
         background-color: #858585;
         border-radius: 15px;
         font-size: 17px;
