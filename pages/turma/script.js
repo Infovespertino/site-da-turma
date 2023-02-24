@@ -2,7 +2,7 @@ const imagens = [
     {src: "../../images/alunos/bea.jpeg", aluno: "Beatriz Cardoso"},
     {src: "../../images/alunos/Breno.jpeg", aluno: "Breno Piris"},
     {src: "../../images/alunos/bruno.gif", aluno: "Bruno Gomes"},
-    {src: "../../images/alunos/Anne.jpeg", aluno: "Clenianne Silva"},
+    {src: "../../images/alunos/Anne.jpeg", aluno: "Cleniane Silva"},
     {src: "../../images/alunos/daniel.jpg", aluno: "Daniel Guimarães"},
     {src: "../../images/alunos/eu.jpeg", aluno: "Douglas Arthur"},
     {src: "../../images/alunos/Eric.jpg", aluno: "Eric silva"},
