@@ -77,6 +77,7 @@
         display: block;
         padding: 6px 5px;
         color: #ffffff;
+        transition: 0.8s;
     }
 
     a:hover{
@@ -100,6 +101,7 @@
         padding-inline: 15px;
         padding-bottom: 8px;
         border-bottom: #000957 solid 2px;
+        transition: 0.8s;
     }
     /* header-mobile */
 
@@ -129,6 +131,7 @@
         margin: 0 30px;
         width: 90px;
         height: 30px;
+        
     }
     
     #Bar a:hover{
@@ -251,6 +254,7 @@
         margin: 0 5px;
         width: 90px;
         height: 30px;
+        transition: 0.8s;
     }
 
     #Bar a:hover{
@@ -379,6 +383,7 @@
         margin: 0 30px;
         width: 90px;
         height: 30px;
+        transition: 0.8s;
     }
     
     #Bar a:hover{
